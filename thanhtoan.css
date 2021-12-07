@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.pay{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.pay__header{
+    font-size: 30px;
+}
+.pay__header h3{
+    color: blue;
+    margin-top: 20px;
+    margin-left: 55px;
+    display: flex;
+    align-items: center;
+}
+.pay__header p{
+    color: brown;
+    margin-left: 60px;
+}
+.pay__header i,.pay__header input{
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.pay__header input{
+    width: 50px;
+    height: 30px;
+}
+.pay__header p:nth-child(3){
+    margin-top: 20px;
+}
+.pay__header button{
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: burlywood;
+    color: blueviolet;
+}
+.pay__header button:hover{
+    background: blueviolet;
+    color: white;
+}
+.pay__top h2{
+   color: black;
+   margin-top: 35px;
+   margin-left: 60px;
+}
+.pay__username{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+.pay__username li a input{
+    margin-left: 30px;
+}
+.pay__username input:nth-child(3){
+    margin-top: 80px;
+    position: absolute;
+    margin-left: 30px;
+    width: 120px;
+    height: 20px;
+}
+.pay__username input:nth-child(4){
+    margin-top: 80px;
+    margin-left: 70px;
+}
+.pay__method{ 
+    display: flex;
+    align-items: center;
+}
+.pay__method h2{
+    color: black;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+.pay__method li a input{
+    margin-top: 120px;
+}
+.pay__method li a input:nth-child(1){
+    margin-left: 10px;
+}
+.pay__adress{
+    position: relative;
+    margin-right: 8px;
+}
+.pay__adress h3{
+    color: black;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.pay__adress select:nth-child(1),.pay__adress select:nth-child(2){
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.pay__request{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 2px;
+}
+.pay__totalcart{
+    margin-left: 100px;
+    margin-top: 30px;
+    color: rgb(10, 8, 1);
+    font-weight: bold;
+}
+.pay button{
+    margin-left: 120px;
+    margin-top: 20px;
+    background: cadetblue;
+    height: 30px;
+}
+.pay button:hover{
+    background: chartreuse;
+    color: black;
+}

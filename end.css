@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+p{
+    color: darkblue;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #333;
+    background-color: darkkhaki;
+}
+button{
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 480px;
+    background: darkorange;
+    color: black;
+}
+button:hover{
+    background: blue;
+    color: white;
+}

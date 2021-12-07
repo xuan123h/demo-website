@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.details{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(147, 202, 170);
+}
+.details__top{
+    color: blue;
+    display: flex;
+    padding: 10px 20px;
+}
+.details__top h2{
+    margin-right: 10px;
+    margin-top: 12px;
+}
+.details__top span{
+    margin-left: 300px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.details__img{
+    width: 1000px;
+    object-fit: cover;
+    display: flex;
+}
+.details__title{
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    margin-top: 30px ;
+    margin-left: 70px;
+    font-size: 40px;
+}
+.details__price{
+    color: blue;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 260px;
+}
+.details__size{
+    display: flex;
+    align-items: center;
+    margin: 60px;
+}
+.details__size h3{
+    color: blue;
+    font-size: 30px;
+}
+.details__size span{
+    margin-right: 10px;
+    font-size: 30px;
+    border: 1px solid #333;
+    background-color: chartreuse;
+}
+.details__color{
+    display: flex;
+    align-items: center;
+    margin: 60px;
+}
+.details__color h3{
+    font-size: 26px;
+    color: brown;
+}
+.details__color span{
+    margin-right: 10px;
+}
+.details__color--green{
+    background: green;
+    border-radius: 50%;
+    width: 30px;
+    height:30px;
+}
+.details__color--red{
+    background: red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.details__color--blue{
+    background: blue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.details__quantity{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.details__quantity h3{
+    color: cornflowerblue;
+    font-size: 30px;
+    margin-left: 55px;
+}
+.details__quantity input{
+    width:40px;
+    height: 25px;
+}
+.details__quantity i{
+    display: block;
+    padding: 20px 10px;
+}
+.details__endow{
+    margin-left: 80px;
+    margin-top: 30px;
+    color: darkgoldenrod;
+    font-size: 25px;
+}
+.details__action{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 55px;
+}
+.details__action button{
+    font-size: 18px;
+    background: rgb(147, 202, 170);
+    font-weight: bold;
+}
+.details__action button:nth-child(1){
+    margin-right: 15px;
+}
+.details__action button:hover{
+    color: indigo;
+}
+.details__quality{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 50px;
+    color:red;
+    text-align: center;
+}
