@@ -121,9 +121,9 @@ leftbtnfor.addEventListener ("click", function(){
 })
 // product-change
 function changeProduct(){
-    if(document.getElementById('image').src===("product1.jpg"))
-      document.getElementById('image').src="product1.jpg"
+    if(document.getElementById('image').src===("images/product1.jpg"))
+      document.getElementById('image').src="images/product1.jpg"
     else{
-      document.getElementById('image').src="product2.jpg";
+      document.getElementById('image').src="images/product2.jpg";
     }
 }
