@@ -1179,6 +1179,7 @@ transition: all 0.3s ease;
 }
 .pagination-item{
     margin: 0 12px;
+    margin-top: 530px;
 }
 .pagination-item__link{
     text-decoration: none;
@@ -1213,6 +1214,7 @@ footer{
     margin: 30px 0;
     padding: 20px 20px;
     margin-left: 268px;
+    margin-top: 100px;
 }
 .app, .content {
     display: flex;
@@ -1273,10 +1275,13 @@ p:hover{
 }
 /* product-bonus */
 .product-bonus{
-    margin-top: 30px;
+    margin-top: 70px;
 }
 .product-bonus h2{
     margin-top: 30px;
+}
+.product-bonus ul{
+    position: relative;
 }
 .product-bonus ul li a img:nth-child(1){
     width: 100%/3;
@@ -1300,38 +1305,52 @@ p:hover{
 }
 /* product-new */
 .product-new{
-    margin-top: 30px;
-    position: relative;
+    margin-top:300px;
+    position: absolute;
+    margin-left: 40px;
 }
 .product-new h2{
-    margin-top: 210px;
+    margin-top: 10px;
     color:black;
     position: absolute;
+    margin-left: 230px;
+    width: 200px;
+}
+.product-new ul{
+    display: flex;
+    margin-top: 60px;
+    position: absolute;
+    margin-left: 230px;
 }
 .product-new li a img{
-    width: 400px;
+    width: 380px;
 }
 .product-new ul li a img:nth-child(1){
-    width: 100%/3;
+    width: 390px;
     align-items: center;
     margin-top: 30px;
-    float: left;
+    /* float: left; */
 }
 .product-new ul li a img:nth-child(2){
-    width: 100%/3;
     display: flex;
     align-items: center;
     margin-top: 30px;
+    width: 390px;
+    margin-left: 20px;
 }
 .product-new ul li a img:nth-child(3){
     width: 100%/3;
     display: flex;
     align-items: center;
     margin-top: 30px;
+    width: 390px;
+    margin-left: 20px;
 }
 /* product-beautiful */
 .product-beautiful{
-    margin-top: 30px;
+    margin-top: 1100px;
+    position: absolute;
+    margin-left: 270px;
 }
 .product-beautiful-content{
     background-color:#FED100 ;
@@ -1344,7 +1363,8 @@ p:hover{
 }
 /* product-game */
 .product-game{
-    margin-top: 30px;
+    margin-top: 650px;
+    margin-left: 0px;
 }
 .product-game-content{
     background-color:#FED100 ;
@@ -1359,8 +1379,9 @@ p:hover{
     width: 500px;
 }
 /* contact-me */
-.contact-me{
-    position: relative;
+.contact-me{ 
+    position: absolute;
+    margin-top: 400px;
 }
 .contact-me h2{
     color: blue;
